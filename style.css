@@ -1,0 +1,188 @@
+html {
+    font-family : Arial, sans serif;
+    font-size : 14px;
+    color : white;
+    line-height: 20px;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+25,ffffff+50,000000+78 */
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(left, #000000 25%, #ffffff 50%, #000000 75%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #000000 25%,#ffffff 50%,#000000 75%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #000000 25%,#ffffff 50%,#000000 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background-image:  url(img/title.jpg), url(img/middle.jpg), url(img/full.jpg) ;
+    background-repeat: no-repeat, no-repeat,repeat-y ;
+    background-position: top right, 404px 0, center ;
+    position: relative;
+    padding: 0;
+}
+#bloc_box {
+    display: flex;
+    margin: 0 ;
+    padding: 0;
+ } 
+
+#leftbox {
+    width: 404px;
+    padding: 30px 30px 0 30px ;
+    }
+#rightbox {
+    width: 316px;
+    }
+section {
+    padding-bottom: 30px;
+}
+h1 {
+    font-family: 'Arial Black', sans serif;
+    text-transform: uppercase;
+   line-height: normal;
+   padding-top: 2px;
+}
+.titre h1 {
+    font-size: 24px;
+    border-top: 3px solid yellow;
+    margin: 0;
+}
+.titre p {
+    
+    font-weight: bold;
+    margin: 0;
+    background-color: yellow;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+.noir {
+    color: black;
+}
+
+.pied_article {
+    border-left: 3px solid yellow;
+    padding-left: 5px;
+    font-size: 12px;}
+.pied_article span {
+    text-transform: uppercase;
+} 
+img {
+    border: 2px solid yellow;
+    padding : 3px;
+}
+img.left {
+float: left ;
+margin-right : 10px;
+}
+img.right {
+float: right ;
+margin-left : 10px;
+}
+blockquote {
+    background-color:#282B2A;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    padding: 5px; 
+
+}
+.list_browser {
+     list-style-image:  url(img/bullet.gif)
+}
+strong {
+     color: yellow;
+}
+
+.fin {
+    display: flex;
+}
+.list-cadre ul  {
+    list-style-type: none;
+    line-height: 35px;
+    background-color: #282B2A;
+    margin-right: 40px;
+    padding: 0;
+    width: 140px;
+
+}
+.list-cadre li {
+    border-top: 1px solid #eee;
+    padding-left : 10px;
+}
+.list-cadre h2 {
+    text-transform: uppercase;
+}
+
+/* RIGHT BOX */
+
+.titre_site {
+    font-size: 60px;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.rose {
+    color: deeppink;
+}
+.liens { 
+    font-size: 24px;
+    font-family: 'Arial Black', sans serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 250px 0 30px 15px;
+    list-style-image:  url(img/star1.jpg)
+}
+.liens li{ 
+    padding : 3px 0;
+
+}
+.updates, .item {
+   margin: 30px 20px;
+   width: 78%;
+}
+ul.updates_list {
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    margin: 0;   
+    list-style-type: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+}
+p.item_text {
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    margin: 0;  
+    padding: 10px;
+}
+
+img.foot {
+    position: absolute;
+    z-index: 1;
+    border :none;
+    bottom : 0;
+    left : 370px;
+}
+.footext {
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    padding : 0 0 2px 30px;
+}
+
+
+
+
+    
+
+
+
+
+    
